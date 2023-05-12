@@ -37,7 +37,7 @@ function onFormSubmit(evt) {
   if (
     refs.email.value.trim().length === 0 ||
     refs.message.value.trim().length === 0
-  ) {   console.log('alert');
+  ) {
     alert('Fill out the form before sending');
   } else {
     console.log('formData:', formData);
